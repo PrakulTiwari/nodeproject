@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./partials/head.ejs') %>
+
+
+<body>
+
+    <%- include('./partials/nav.ejs') %>
+    <div class="blog content">
+        <h2>all blogs</h2>
+
+        <% if(mario.length>0) { %>
+        <% mario.forEach(marios =>{%>
+        <a class="blogs" href="/blogs/<%=marios._id%>">
+            <h3 class="title"><%= marios.title %></h3>
+            <p class="snippet"><%= marios.snippet %></p>
+        </a>
+        <% }) %>
+        <% } %>
+    </div>
+    <%- include('./partials/footer.ejs') %>
+</body>
+
+
+</html>

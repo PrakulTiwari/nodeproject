@@ -1,0 +1,17 @@
+1. setTimeout(() => {}, timeout); = takes two parameters one is fuction to run and other is time after which it will run.
+
+2. addEventListener('', () => { }) = takes two parameters one is the event and the other is function when the event takes place.
+
+3. querySelector('') = takes in values from div class defined in the linked html file.
+
+4. const ____ = defines a variable which will be used in the file.
+
+5. let _____ = works similar like const but defines a variable which can be changed.
+
+6. forEach(___ => {}) = takes each element of the array and runs the function defined in the curly braces for it.
+
+7. Math.random() * ___ = takes in a number and selects a random number from zero to that number.
+
+8. Math.floor(___) = takes in a float value which it rounds of
+
+9. 
